@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string-array name="Account_Type">
+        <item>Admin</item>
+        <item>Home Owner</item>
+        <item>Service Provider</item>
+    </string-array>
+
+    <array name="spinnerType">
+        <item>Admin</item>
+        <item>Home Owner</item>
+        <item>Service Provider</item>
+    </array>
+
+    <string-array name="Date">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="Home_Owner_Services">
+        <item>All</item>
+    </string-array>
+
+    <string-array name="Home_Owner_Time">
+        <item>All</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="Home_Owner_Rate">
+        <item>All</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string-array name="Home_Owner_Hour">
+        <item>All</item>
+        <item>0:00 - 3:00</item>
+        <item>3:00 - 6:00</item>
+        <item>6:00 - 9:00</item>
+        <item>9:00 - 12:00</item>
+        <item>12:00 - 15:00</item>
+        <item>15:00 - 18:00</item>
+        <item>18:00 - 21:00</item>
+        <item>21:00 - 0:00</item>
+
+
+    </string-array>
+
+</resources>

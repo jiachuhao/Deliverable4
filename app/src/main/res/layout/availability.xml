@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewWeekday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Weekday"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Spinner
+                android:id="@+id/spinnerWeekday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewStartTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Start Time                                                                End Time"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextStartTimeHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="84dp" />
+
+                <EditText
+                    android:id="@+id/editTextStartTimeMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="84dp" />
+
+                <EditText
+                    android:id="@+id/editTextTime5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text=":"
+                    android:textAlignment="center"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="84dp" />
+
+                <EditText
+                    android:id="@+id/editTextEndTimeHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="84dp" />
+
+                <EditText
+                    android:id="@+id/editTextEndTimeMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="84dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Change"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="130dp" />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cancel"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="130dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
